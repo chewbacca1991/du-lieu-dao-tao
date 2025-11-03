@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect('mongodb://localhost:27017/du-lieu-dao-tao', {
+mongoose.connect('mongodb://localhost:27017/du_lieu_dao_tao', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
